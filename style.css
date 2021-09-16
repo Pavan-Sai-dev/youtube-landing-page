@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'popping',sans-serif;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+.flex-nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-right img{
+    width: 27px;
+    margin-right: 25px;
+}
+.user{
+    border-radius: 50%;
+    margin-right: 0;
+    width: 35px;
+}
+.nav-left .menu{
+    width: 22px;
+    margin-right: 25px;
+
+}
+.nav-left .logo{
+    width: 130px;
+}
+.voice{
+    width: 17px;
+}
+.search-bar{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav-middle .search-bar input{
+    width: 500px;
+    outline: 0;
+    border: 0;
+    background: transparent;
+}
+.search{
+    width: 16px;
+}
+.side-bar{
+    background: rgb(255, 255, 255);
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+ .links a img{
+    width:20px;
+    margin-right: 20px;
+}
+.links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    color: #5a5a5a;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    width: 85%;
+}
+.subscription{
+        font-size: 13px;
+        margin: 20px 0;
+        color: #5a5a5a;
+}
+.subscription a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: fit-content;
+    flex-wrap: wrap;
+    color: #5a5a5a;
+    font-size: medium;
+}
+.subscription a img{
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 20px;
+}
+.subscription .title{
+font-size: 13px;
+margin: 20px 0;
+color: #5a5a5a;
+}
+.continear{
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap:16px;
+    grid-row-gap:30px;
+    margin-top: 15px;
+}
+.vid-list .thumbnail{
+    width: 100%;
+    border-radius: 2px;
+cursor: pointer;
+}
+.vid-list .flex-div{
+    align-items: flex-start;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.flex-div .users{
+border-radius: 50%;
+width: 40px;
+margin-right: 10px;
+    
+}
+.vid-info p{
+font-weight: 12px;
+    font-size: small;
+    color: #5a5a5a;
+    margin-top: 2px;
+}
+.vid-info a{
+ color:#5a5a5a;
+ font-size: 16px;
+ font-weight: bold;
+ display: block;
+ margin-bottom: 5px;
+}
